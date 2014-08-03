@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <Languages xmlns="">
+    <Language code="en-IN" />
+    <Language code="en-ZA" />
+    <Language code="en-SG" />
+    <Language code="en-TT" />
+    <Language code="en-GB" />
+    <Language code="en-US" />
+    <Language code="en-ZW" />
+    <Language code="en-PH" />
+    <Language code="en-NZ" />
+    <Language code="en-MY" />
+    <Language code="en-JM" />
+    <Language code="en-IE" />
+    <Language code="en-HK" />
+    <Language code="en-029" />
+    <Language code="en-CA" />
+    <Language code="en-BZ" />
+    <Language code="en-AU" />
+    <Language code="en" />
+  </Languages>
+  <App xmlns="" ProductID="{e8ac0725-0518-499a-bed1-0badf0c0d445}" Title="2048 Assist" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Antony D Thomas" Description="2048 with a in-built  Solver .&#xD;&#xA;Assists you in solving the 2048 puzzle. It has artificial intelligence that thinks like a human as it helps you solve the puzzle. " Publisher="Antony D Thomas" PublisherID="{8f222a8b-eb1b-442f-8db0-1dc54c0ad0c3}">
+    <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="TwentyFortyEight_AssistToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">tile_small_110_110.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">tile_medium_202_202.png</BackgroundImageURI>
+          <Title>2048 Assist</Title>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI>
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <DeviceLockImageURI>
+          </DeviceLockImageURI>
+          <HasLarge>
+          </HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
