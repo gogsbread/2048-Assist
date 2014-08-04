@@ -1,0 +1,35 @@
+﻿<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="MyApp"
+            Publisher="CN=peterdn.com"
+            Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>2048 Assist</DisplayName>
+    <PublisherDisplayName>Antaura</PublisherDisplayName>
+    <Logo>Images\Logo.png</Logo>
+    <Description>
+      2048 with a in-built solver. Assists you in solving the 2048 puzzle. It has artificial intelligence that thinks like a human as it helps you solve the puzzle.
+    </Description>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>8.0</OSMinVersion>
+    <OSMaxVersionTested>8.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Applications>
+    <Application Id="MyAppId"
+        Executable="MyApp.exe"
+        EntryPoint="MyApp.App">
+      <VisualElements
+          DisplayName="MyApp"
+          Logo="Images\Logo.png"
+          SmallLogo="Images\SmallLogo.png"
+          Description="My Cool App"
+          ForegroundText="light"
+          BackgroundColor="#222222">
+        <SplashScreen Image="Images\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

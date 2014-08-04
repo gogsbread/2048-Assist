@@ -1,2 +1,6 @@
 2048-Assist/obj/
 2048-Assist/Bin/
+2048-Assist/PerfLogs/
+*suo
+*user
+*~

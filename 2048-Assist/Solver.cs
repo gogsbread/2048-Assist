@@ -6,7 +6,7 @@
 ///     Expectation gives the expected value of current game state
 ///     Maximizer takes the maximum of all expected values.
 ///  
-/// The program will use parallelization on supported devices to explore 4 game trees for 4 different directions.
+/// The program uses parallelization on supported devices to explore 4 game trees for 4 possible directions.
 /// </remarks> 
 
 using System;
