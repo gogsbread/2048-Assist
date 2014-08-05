@@ -13,6 +13,4 @@ The game uses a browser runs inside the IE browser. The actual game is a clone o
 
 2048 Assist was designed to be used in windows phone. The game can be downloaded at http://www.windowsphone.com/en-us/store/app/2048-assist/dcf7723d-8ad2-46f4-a5ce-7f43d8a72bc7.
 
-![alt tag](https://github.com/antonydeepak/2048-Assist/blob/master/2048-Assist/Assets/Promotional/1024_intermediate.png)
-
 ![alt tag](https://github.com/antonydeepak/2048-Assist/blob/master/2048-Assist/Assets/Promotional/2048_won.png)
