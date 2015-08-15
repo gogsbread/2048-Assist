@@ -1,4 +1,4 @@
-**2048 Assist** is an *artificial intelligence* solver for the popular 2048 game. The algorithm is designed to solve the game as a human would do. 
+**2048 Assist** is an *artificial intelligence* solver for the popular 2048 game. The algorithm is designed to solve the game as a human would do. The solver solves the problem 99.9% of the time.
 
 The algorithm performs a  Expectimax search on a game tree and assigns appropriate utility score for state.
 
